@@ -1,0 +1,47 @@
+<supermercado>
+    <nombre>Mercadona</nombre>
+    <direccion>Calle de Bravo Murillo, 89, 28003 Madrid, España</direccion>
+    <geolocalizacion>
+      <latitud>40.445538</latitud>
+      <longitud>-3.695869</longitud>
+    </geolocalizacion>
+    <secciones>
+      <frutas_y_verduras>
+        <producto>
+          <nombre>Manzana</nombre>
+          <precio>1.29</precio>
+          <unidad_de_medida>kg</unidad_de_medida>
+          <en_oferta>false</en_oferta>
+          <adquirido>false</adquirido>
+        </producto>
+        <producto>
+          <nombre>Plátano</nombre>
+          <precio>1.59</precio>
+          <unidad_de_medida>kg</unidad_de_medida>
+          <en_oferta>true</en_oferta>
+          <precio_oferta>1.19</precio_oferta>
+          <vigencia_oferta>2023-04-08/2023-04-14</vigencia_oferta>
+          <adquirido>false</adquirido>
+        </producto>
+      </frutas_y_verduras>
+      <carnes>
+        <producto>
+          <nombre>Pollo</nombre>
+          <precio>3.49</precio>
+          <unidad_de_medida>kg</unidad_de_medida>
+          <en_oferta>false</en_oferta>
+          <adquirido>false</adquirido>
+        </producto>
+        <producto>
+          <nombre>Ternera</nombre>
+          <precio>12.99</precio>
+          <unidad_de_medida>kg</unidad_de_medida>
+          <en_oferta>true</en_oferta>
+          <precio_oferta>9.99</precio_oferta>
+          <vigencia_oferta>2023-04-10/2023-04-16</vigencia_oferta>
+          <adquirido>false</adquirido>
+        </producto>
+      </carnes>
+    </secciones>
+  </supermercado>
+  

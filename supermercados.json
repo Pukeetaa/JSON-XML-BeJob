@@ -1,0 +1,135 @@
+{
+    "supermercados": [{
+            "nombre": "Mercadona",
+            "direccion": "Calle de Bravo Murillo, 89, 28003 Madrid, España",
+            "geolocalizacion": {
+                "latitud": 40.445538,
+                "longitud": -3.695869
+            },
+            "secciones": {
+                "frutas_y_verduras": [{
+                        "producto": "Manzana",
+                        "precio": 1.29,
+                        "unidad_de_medida": "kg",
+                        "en_oferta": false,
+                        "adquirido": false
+                    },
+                    {
+                        "producto": "Plátano",
+                        "precio": 1.59,
+                        "unidad_de_medida": "kg",
+                        "en_oferta": true,
+                        "precio_oferta": 1.19,
+                        "vigencia_oferta": "2023-04-08/2023-04-14",
+                        "adquirido": false
+                    }
+                ],
+                "carnes": [{
+                        "producto": "Pollo",
+                        "precio": 3.49,
+                        "unidad_de_medida": "kg",
+                        "en_oferta": false,
+                        "adquirido": false
+                    },
+                    {
+                        "producto": "Ternera",
+                        "precio": 12.99,
+                        "unidad_de_medida": "kg",
+                        "en_oferta": true,
+                        "precio_oferta": 9.99,
+                        "vigencia_oferta": "2023-04-10/2023-04-16",
+                        "adquirido": false
+                    }
+                ]
+            }
+        },
+        {
+            "nombre": "Carrefour",
+            "direccion": "Calle de Alcalá, 414, 28027 Madrid, España",
+            "geolocalizacion": {
+                "latitud": 40.431891,
+                "longitud": -3.627557
+            },
+            "secciones": {
+                "lacteos": [{
+                        "producto": "Leche",
+                        "precio": 0.79,
+                        "unidad_de_medida": "litro",
+                        "en_oferta": false,
+                        "adquirido": false
+                    },
+                    {
+                        "producto": "Yogurt",
+                        "precio": 1.99,
+                        "unidad_de_medida": "pack",
+                        "en_oferta": true,
+                        "precio_oferta": 1.49,
+                        "vigencia_oferta": "2023-04-08/2023-04-14",
+                        "adquirido": false
+                    }
+                ],
+                "pescaderia": [{
+                        "producto": "Salmón",
+                        "precio": 15.99,
+                        "unidad_de_medida": "kg",
+                        "en_oferta": false,
+                        "adquirido": false
+                    },
+                    {
+                        "producto": "Merluza",
+                        "precio": 8.99,
+                        "unidad_de_medida": "kg",
+                        "en_oferta": true,
+                        "precio_oferta": 6.99,
+                        "vigencia_oferta": "2023-04-12/2023-04-18",
+                        "adquirido": false
+                    }
+                ]
+            }
+        },
+        {
+            "nombre": "Lidl",
+            "direccion": "Calle de Sinesio Delgado, 33, 28029 Madrid, España",
+            "geolocalizacion": {
+                "latitud": 40.476315,
+                "longitud": -3.711896
+            },
+            "secciones": {
+                "panaderia": [{
+                        "producto": "Pan integral",
+                        "precio": 1.49,
+                        "unidad_de_medida": "unidad",
+                        "en_oferta": false,
+                        "adquirido": false
+                    },
+                    {
+                        "producto": "Croissant",
+                        "precio": 0.89,
+                        "unidad_de_medida": "unidad",
+                        "en_oferta": true,
+                        "precio_oferta": 0.69,
+                        "vigencia_oferta": "2023-04-09/2023-04-15",
+                        "adquirido": false
+                    }
+                ],
+                "bebidas": [{
+                        "producto": "Agua mineral",
+                        "precio": 0.39,
+                        "unidad_de_medida": "litro",
+                        "en_oferta": false,
+                        "adquirido": false
+                    },
+                    {
+                        "producto": "Coca-Cola",
+                        "precio": 1.19,
+                        "unidad_de_medida": "litro",
+                        "en_oferta": true,
+                        "precio_oferta": 0.99,
+                        "vigencia_oferta": "2023-04-11/2023-04-17",
+                        "adquirido": false
+                    }
+                ]
+            }
+        }
+    ]
+}
